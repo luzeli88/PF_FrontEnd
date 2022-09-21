@@ -12,6 +12,7 @@ import { HeaderComponent } from './componentes/header/header.component';
 import { HyssComponent } from './componentes/hyss/hyss.component';
 import { LogoRedesComponent } from './componentes/logo-redes/logo-redes.component';
 import { ProyectosComponent } from './componentes/proyectos/proyectos.component';
+import { NgCircleProgressModule } from 'ng-circle-progress';
 
 @NgModule({
   declarations: [
@@ -25,11 +26,11 @@ import { ProyectosComponent } from './componentes/proyectos/proyectos.component'
     HyssComponent,
     FooterComponent,
     ProyectosComponent
-
     ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgCircleProgressModule.forRoot({})
     
   ],
   providers: [],
