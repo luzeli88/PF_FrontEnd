@@ -2,7 +2,8 @@
     padding: 15px;
 }
 div{
-    background-color: rgb(245, 237, 243);
+    /*opcion intercalar colores de los componentes o solo dejar blancoo
+    background-color: #D8198F; */
     text-align: justify;
     font-weight: bold;
     font-family:Georgia, 'Times New Roman', Times, serif;
