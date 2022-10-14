@@ -13,6 +13,9 @@ import { HyssComponent } from './componentes/hyss/hyss.component';
 import { LogoRedesComponent } from './componentes/logo-redes/logo-redes.component';
 import { ProyectosComponent } from './componentes/proyectos/proyectos.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
+import { HttpClientModule } from '@angular/common/http';
+import { HomeComponent } from './componentes/home/home.component';
+import { LoginComponent } from './componentes/login/login.component';
 
 @NgModule({
   declarations: [
@@ -25,12 +28,15 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
     ExperienciaComponent,
     HyssComponent,
     FooterComponent,
-    ProyectosComponent
+    ProyectosComponent,
+    HomeComponent,
+    LoginComponent
     ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgCircleProgressModule.forRoot({})
+    NgCircleProgressModule.forRoot({}),
+    HttpClientModule
     
   ],
   providers: [],
